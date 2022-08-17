@@ -18,3 +18,19 @@
     font-weight: 500;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+@media (max-width: 1024px) {
+
+    .rear-card {
+        height: 166px;
+        width: 300px;
+        border-radius: 5px;
+    
+    }
+    
+    .cvv {
+        top: 74px;
+        right: 32px;
+        font-size: 12px;
+    }
+}

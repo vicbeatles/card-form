@@ -28,3 +28,45 @@
     left: 200px;
     bottom: 20vh;
 }
+
+@media (max-width: 1024px) {
+
+    .main {
+        
+        flex-direction: column;
+    }
+    
+    .cards {
+        width: 100%;
+        height: 30vh;
+        max-height: 250px;
+        background-image: url("assets/images/bg-main-mobile.png");
+        
+    }
+
+    
+    .form-container {
+        height: 70vh;
+        display: flex;
+        padding-top: 50px;
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+      
+        
+    }
+    
+    .front-card-container {
+        left: 25px;
+        top: 115px;
+       
+    }
+    
+    .rear-card-container {
+        bottom: 0px;
+        left: 65px;
+        top: 20px;
+   
+    }
+
+}
