@@ -9,10 +9,12 @@
 }
 
 
-.form {
-   width: 1000px;
-   height: 100vh;
-   position: relative;
+.form-container {
+    flex: 1 0 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
 }
 
 .front-card-container {

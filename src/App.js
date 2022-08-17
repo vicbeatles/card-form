@@ -1,5 +1,6 @@
 import FrontCard from "./components/FrontCard";
 import RearCard from "./components/RearCard";
+import Form from "./components/Form";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
         <div className="front-card-container"><FrontCard /></div>
         <div className="rear-card-container"><RearCard /></div>
       </div>
-      <div className="form"></div>
+      <div className="form-container">
+        <Form />
+      </div>
     </div>
   );
 }
