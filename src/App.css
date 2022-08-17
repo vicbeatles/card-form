@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+}
+
+.cards {
+    width: 440px;
+    height: 100vh;
+    background-image: url("assets/images/bg-main-desktop.png");
+}
+
+
+.form-container {
+    flex: 1 0 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+}
+
+.front-card-container {
+    position: absolute;
+    left: 100px;
+    top: 20vh;
+}
+
+.rear-card-container {
+    position: absolute;
+    left: 200px;
+    bottom: 20vh;
+}

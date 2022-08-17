@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+
+}
+
+.cards {
+    width: 430px;
+    height: 100vh;
+    background-image: url("/images/bg-main-desktop.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+.front-card {
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    background-image: url("/images/bg-card-front.png");
+    background-size: cover;
+    left: 100px;
+    margin-left: 100px;
+    margin-bottom: -100px;   
+    
+}
+
+.rear-card {
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    background-image: url("/images/bg-card-back.png");
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: -100px;
+
+}
+
+.data {
+    width: 1010px;
+    height: 100%;
+}
