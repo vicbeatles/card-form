@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.front-card {
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    background-image: url("../../assets/images/bg-card-front.png");
+    background-size: cover;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;    
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.logo {
+    background-image: url(../../assets/images/card-logo.svg);
+    background-size: cover;
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+}
+
+.numbers {
+
+    position: absolute;
+    bottom: 75px;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.cardholder-name {
+    position: absolute;
+    bottom: 30px;
+}
+
+.exp-date {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+
