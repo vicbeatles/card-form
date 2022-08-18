@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FrontCard from "./components/FrontCard";
 import RearCard from "./components/RearCard";
 import Form from "./components/Form";
-
+import SubmitMessage from "./components/SubmitMessage";
 import "./App.css";
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     month: "",
     year: "",
     cvv: "",
+    submitted: false,
   });
 
   return (
@@ -25,7 +26,11 @@ function App() {
         </div>
       </div>
       <div className="form-container">
-        <Form setFormData={setFormData} formData={formData} />
+        {formData.submitted ? (
+          <SubmitMessage />
+        ) : (
+          <Form setFormData={setFormData} formData={formData} />
+        )}
       </div>
     </div>
   );

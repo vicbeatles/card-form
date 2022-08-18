@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.message-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    max-height: 400px;
+    max-width: 400px;
+    font-family: 'Space Grotesk', sans-serif; 
+}
+
+.check-image {
+
+    width: 100px;
+    height: 100px;
+    background-image: url("../../assets/images/icon-complete.svg");
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+
+.message-title {
+      margin-bottom: 15px;
+      font-size: 26px;
+      letter-spacing: 4px;   
+}
+
+.message-text {
+    color: hsl(279, 6%, 55%);
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+
+.message-button {
+    width: 100%;
+}
+

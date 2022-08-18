@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Form = ({formData,setFormData}) => {
 
-    const {name, number, month, year, cvv} = formData;
+    const {name, number, month, year, cvv, submitted} = formData;
 
     const inputHandler = (event) => { 
         setFormData({...formData,[event.target.name]:event.target.value})
@@ -36,9 +36,9 @@ const Form = ({formData,setFormData}) => {
                 <input value={cvv} onChange={inputHandler} type="text" id="cvv" name="cvv" placeholder="e.g. 123" />
             </div>
         </div>
-        <div className="row"><button>Confirm</button></div>
+        <div className="row"><button onClick={inputHandler} name="submitted" value={true}>Confirm</button></div>
     </form>
   )
 }
 
-export default Form
+export default Form;
