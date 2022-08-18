@@ -44,3 +44,37 @@
 }
 
 
+@media (max-width: 1024px) {
+
+    .front-card {
+        height: 166px;
+        width: 300px;
+        border-radius: 5px;
+        padding-left: 15px;
+        font-size: 12px;
+    
+    }
+    
+    .logo { 
+        width: 62px;
+        height: 34px;
+        top: 20px;
+    }
+    
+    .numbers {
+    
+        bottom: 50px;
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+    
+    .cardholder-name {
+        bottom: 15px;
+    }
+    
+    .exp-date {
+        bottom: 15px;
+        right: 13px;
+    }
+    
+}

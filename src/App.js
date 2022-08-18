@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="main">
       <div className="cards">
+      <div className="rear-card-container"><RearCard /></div>
         <div className="front-card-container"><FrontCard /></div>
-        <div className="rear-card-container"><RearCard /></div>
       </div>
       <div className="form-container">
         <Form />

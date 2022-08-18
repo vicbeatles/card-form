@@ -7,7 +7,7 @@ const FrontCard = () => {
     <div className='front-card'>
         <div className="logo"></div>
         <div className="numbers">0000 0000 0000 0000</div>
-        <div className="cardholder-name">Name Surname</div>
+        <div className="cardholder-name">NAME SURNAME</div>
         <div className="exp-date">06/25</div>
     </div>
   )
