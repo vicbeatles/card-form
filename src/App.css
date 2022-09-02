@@ -26,5 +26,21 @@
 .rear-card-container {
     position: absolute;
     left: 200px;
-    bottom: 20vh;
+    bottom:20vh;
+}
+
+@media (max-height: 850px) {
+
+    .front-card-container {
+        position: absolute;
+        left: 100px;
+        top: 10vh;
+    }
+    
+    .rear-card-container {
+        position: absolute;
+        left: 200px;
+        bottom:10vh;
+    }
+
 }
