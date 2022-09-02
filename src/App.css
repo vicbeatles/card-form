@@ -6,6 +6,7 @@
     width: 440px;
     height: 100vh;
     background-image: url("assets/images/bg-main-desktop.png");
+    background-size: cover;
 }
 
 
