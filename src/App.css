@@ -6,6 +6,7 @@
     width: 440px;
     height: 100vh;
     background-image: url("assets/images/bg-main-desktop.png");
+    background-size: cover;
 }
 
 
@@ -26,7 +27,23 @@
 .rear-card-container {
     position: absolute;
     left: 200px;
-    bottom: 20vh;
+    bottom:20vh;
+}
+
+@media (max-height: 850px) {
+
+    .front-card-container {
+        position: absolute;
+        left: 100px;
+        top: 10vh;
+    }
+    
+    .rear-card-container {
+        position: absolute;
+        left: 200px;
+        bottom:10vh;
+    }
+
 }
 
 @media (max-width: 1024px) {
