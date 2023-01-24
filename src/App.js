@@ -7,11 +7,11 @@ import "./App.css";
 
 function App() {
   const [formData, setFormData] = useState({
-    name: "",
-    number: "",
-    month: "",
-    year: "",
-    cvv: "",
+    name: "CARDHOLDER NAME",
+    number: "0000 0000 0000 0000",
+    month: "00",
+    year: "00",
+    cvv: "000",
     submitted: false,
   });
 
